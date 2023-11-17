@@ -1,0 +1,73 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 12, 44) ;
+}
+
+
+.nav-1{
+  background: rgb(0, 12, 44) ;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  height: 80px;
+}
+
+
+.Create-Box{
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;	
+}
+
+.Create-Box > a{
+	color: white;
+}
+
+.title{
+  color: white;
+}
+
+.nav-2{
+  margin: 5px;
+  background: white ;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  height: 80px;
+}
+
+.searchbox{
+  background: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+
+
+.bigtext {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 13px;
+
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+}
+
+.search input {
+  margin-right: 10px;
+}
+
